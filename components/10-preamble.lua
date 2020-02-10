@@ -1,0 +1,13 @@
+-- spaceOS - minimal operating system
+-- # general design
+-- recieve messages from keyboard via digiline
+-- call apropriate program (just a function)
+-- arguments: (input, argi)
+--   input: whole input from keyboard
+--   argi: index where command name ends/arguments start
+--
+-- if a program wants to take over keyboard input itself,
+-- overwrite mem.fg ('foreground') with the _name_ of a callback
+-- arguments: (input)
+--  input: whole input from keyboard
+-- (why a name? Because functions can't be stored in mem.)
