@@ -31,28 +31,19 @@ end
 _log_display = function(n)
   if n == nil then
     digiline_send(d, 'Invalid log index')
-    prompt()
   else
     entry = _log_entries[n]
     if entry == nil then
       digiline_send(d, 'Invalid log index')
-      prompt()
     else
-      local entry = _log_entries[n]
-      pager(entry["pages"], entry["title"])
+      metapager(_log_entries, n)
     end
   end
 end
 
 
 _log_all = function()
-  pages = {}
-  for _, entry in ipairs(_log_entries) do
-    for _, p in ipairs(entry["pages"]) do
-      table.insert(pages, p)
-    end
-  end
-  pager(pages)
+    _log_display(1)
 end
 
 log = function(input, argi)

@@ -13,17 +13,23 @@ end
 
 
 _pg_callback = function(input)
-  if mem.pg.done then
-    if input == 'n' or input == 'q' then
-      prompt()
+  if input == 'n' then
+    if mem.pg.done then
+      if mem.pg.meta then
+        _pg_meta_page()
+      else
+        prompt()
+      end
     else
-      -- accept command when on last page
-      _prompt_callback(input)
+      _pg_page()
     end
-  elseif input == 'n' then
-    _pg_page()
-  else
+  elseif input == 'q' then
     prompt()
+  elseif input == 's' then
+    _pg_meta_page()
+  elseif mem.pg.done and not mem.pg.meta then
+    -- accept command when on last page
+    _prompt_callback(input)
   end
 end
 
@@ -33,11 +39,15 @@ _pg_page = function()
   if mem.pg.pages[mem.pg.cur] == nil then
     mem.pg.done = true
   end
-  if mem.pg.done == true then
-    hint = "[q: quit]"
-  else
-    hint = '[n: next/q: quit]'
+
+  local hint = ''
+  if not mem.pg.done or (mem.pg.meta == true and not mem.pg.meta_done) then
+    hint = hint .. 'n: next/'
   end
+  if mem.pg.meta and not mem.pg.meta_done and not mem.pg.done then
+    hint = hint .. 's: skip/'
+  end
+  hint = '[' .. hint .. 'q: quit]'
   
   if mem.pg.title ~= nil then
     table.insert(page, 1, mem.pg.title)
@@ -58,6 +68,19 @@ _pg_page = function()
   digiline_send(d, output)
 end
 
+_pg_meta_page = function()
+    local entry = mem.pg.entries[mem.pg.cur_entry]
+    mem.pg.cur_entry = mem.pg.cur_entry + 1
+    if mem.pg.entries[mem.pg.cur_entry] == nil then
+        mem.pg.meta_done = true
+    end
+    mem.pg.pages = entry["pages"]
+    mem.pg.done = false
+    mem.pg.title = entry["title"]
+    mem.pg.cur = 1
+    _pg_page()
+end
+
 -- interactively page through provided input (somewhat like the 'more' command)
 -- arguments:
 --   pages: table of pages
@@ -76,3 +99,14 @@ pager = function(pages, title)
   mem.pg.cur = 1
   _pg_page()
 end
+
+metapager = function(entries, start)
+  clear()
+  mem.fg = "_pg_callback"
+  mem.pg = {}
+  mem.pg.meta = true
+  mem.pg.entries = entries
+  mem.pg.cur_entry = start
+  _pg_meta_page()
+end
+
