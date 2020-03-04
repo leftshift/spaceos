@@ -1,6 +1,9 @@
 prompt = function()
   mem.fg = "_prompt_callback"
-  digiline_send(d, ">")
+  digiline_send(d, [[Welcome to spaceOS!
+Type 'help' and press 'send'
+to get started.
+>]])
 end
 
 _prompt_callback = function (input)
