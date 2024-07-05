@@ -161,7 +161,7 @@ St. Turing, where we will arrive later tomorrow.]]
 Type: Mission Log
 
 chaotic, sad, powerless.
-The ship is at capaicity.
+The ship is at capacity.
 So many we had to leave behind.
 Situation worse than we anticipated, even though we knew the GWA was downplaying.
 We'll come again.
@@ -169,14 +169,14 @@ Stay strong.
 Ahoy to a safe return.]]
 	},
 	{
-		title="[18: whitness 1]",
+		title="[18: witness 1]",
 		text=[[Operator: #3
 Type: Mission Log
 
 My name is Franka. I lived in the Settlement of St. Turing my whole life.
-Life was tough up in the mountains, since the gold mines were closed, 7 years ago.
+Life was tough up in the mountains since the gold mines were closed, 7 years ago.
 Most folk left, some started farming. Most buildings fell into disrepair, since the material shuttles stopped after the gold.
-But since about 4 months ago, life became almost unbarable.
+But since about 4 months ago, life became almost unbearable.
 The gruesome winter killed even the non-seasonal crops, and spring never came.
 Our stocks are empty.
 Almost noone heared our cries for help. After the gold, the Alliance classified the mountains as uninhabitable and stopped all support except the rare shuttles they are obliged to run.
@@ -390,7 +390,7 @@ Arrived back on Losa at Worsley Town, remote fishing town that has been hit hard
 Some have already started the long hike across the mountains to the bigger settlements, but many would probably not make it there before winter.
 Although summer, winter, kind of the same thing here now.
 
-We'll be a bit overcrouded, but we won't leave anyone behind.
+We'll be a bit overcrowded, but we won't leave anyone behind.
 Almost ready to go again, we'll try to leave tomorrow.]]
 	},
 	{
@@ -411,14 +411,14 @@ Note you have knowingly transgressed the quarantine of Losa.
 Expect no further patience from us.]]
 	},
 	{
-		title="[39: whitness 2]",
+		title="[39: witness 2]",
 		text=[[Operator: #7
 Type: Mission Log
 
 My emotions cold.
 Haven't quite realised what even happened.
 Now I'm on this ship and I don't even know if I wanted to.
-Everyone left so I kind of came along. But maybe I should have stayed, die peacefully.
+Everyone left so I kind of came along. But maybe I should have stayed, died peacefully.
 It's just a disgrace how they ruined the future of my grandkids.
 Treat us like a disease-laden pest, yet noone has actually died from said virus. They just starve to death. Simple and sad as that.
 
@@ -517,7 +517,7 @@ Type: System Log
 
 Well that worked a a bit too well.
 Neither me nor the nav system have any idea where in the universe we ended up.
-But surprisingly, instead of vast nothingnes (the more likely option), I can see a Planet and a Star.
+But surprisingly, instead of vast nothingness (the more likely option), I can see a Planet and a Star.
 
 The dimensional drive also ate up absurd amounts of fuel for this jump, so we probably won't get much further.]]
 	},
