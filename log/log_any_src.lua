@@ -617,7 +617,7 @@ function wrap_line(length, line)
         local first = string.match(line:sub(1, length+1), "(.*) ")
         local rest = line:sub(first:len() + 2)
         local res = wrap_line(length, rest)
-        return {first, unpack(res)}
+        return {first, table.unpack(res)}
     end
 end
 
