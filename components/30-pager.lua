@@ -10,7 +10,9 @@ end
 
 -- clear display
 clear = function()
-  write_line("\n")
+  if target == 'minetest' then
+    write_line("\n")
+  end
 end
 
 
