@@ -1,0 +1,3 @@
+To build the log, run make.
+
+A lua intpreter is required.
