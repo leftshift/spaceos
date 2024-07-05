@@ -16,6 +16,10 @@ _prompt_callback = function (input)
   end
   if cmd == "help" then
     help(input, cmdi)
+  elseif cmd == "nav" then
+    nav(input, cmdi)
+  elseif cmd == "power" then
+    power(input, cmdi)
   elseif cmd == "log" then
     log(input, cmdi)
   elseif cmd == "prompt" then
