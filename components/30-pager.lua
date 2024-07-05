@@ -18,7 +18,11 @@ _pg_callback = function(input)
   if input == 'n' then
     if mem.pg.done then
       if mem.pg.meta then
-        _pg_meta_page()
+        if mem.pg.meta_done then
+            prompt()
+        else
+            _pg_meta_page()
+        end
       else
         prompt()
       end
