@@ -57,11 +57,13 @@ _pg_page = function()
   end
   hint = '[' .. hint .. 'q: quit]'
   
+  local output = ""
+  local title_len = 0
   if mem.pg.title ~= nil then
-    table.insert(page, 1, mem.pg.title)
+    output = mem.pg.title .. "\n"
+    title_len = 1
   end
 
-  local output = ""
   for i, line in ipairs(page) do
     sep = "\n"
     if line:len() == WIDTH and target == 'minetest' then
@@ -70,7 +72,7 @@ _pg_page = function()
     output = output .. line .. sep
   end
 
-  local padding = string.rep("\n", HEIGHT - #page - 1)
+  local padding = string.rep("\n", HEIGHT - #page - 1 - title_len)
 
   output = output .. padding ..hint:rpad(WIDTH)
   write_line(output)
