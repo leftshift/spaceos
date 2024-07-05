@@ -1,6 +1,8 @@
 -- ## pager
 -- uses mem.pg namespace
 
+target = 'js'
+
 string.rpad = function(str, len, char)
     if char == nil then char = ' ' end
     return string.rep(char, len - #str) .. str
@@ -56,7 +58,7 @@ _pg_page = function()
   local output = ""
   for i, line in ipairs(page) do
     sep = "\n"
-    if line:len() == WIDTH then
+    if line:len() == WIDTH and target == 'minetest' then
         sep = ""
     end
     output = output .. line .. sep
