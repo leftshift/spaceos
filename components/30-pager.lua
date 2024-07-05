@@ -8,7 +8,7 @@ end
 
 -- clear display
 clear = function()
-  digiline_send(d, "\n")
+  write_line("\n")
 end
 
 
@@ -65,7 +65,7 @@ _pg_page = function()
   local padding = string.rep("\n", HEIGHT - #page - 1)
 
   output = output .. padding ..hint:rpad(WIDTH)
-  digiline_send(d, output)
+  write_line(output)
 end
 
 _pg_meta_page = function()

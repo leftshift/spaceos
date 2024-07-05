@@ -1,5 +1,5 @@
 -- digiline channel for monitor
-d = "display"
+-- d = "display"
 
 -- width and height of monitor
 WIDTH = 32

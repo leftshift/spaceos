@@ -23,18 +23,18 @@ _log_list = function()
     table.insert(list, page)
   end
   if list == nil then
-    digiline_print(d, 'list nil')
+    write_line('list nil')
   end
   pager(list)
 end
 
 _log_display = function(n)
   if n == nil then
-    digiline_send(d, 'Invalid log index')
+    write_line('Invalid log index')
   else
     entry = _log_entries[n]
     if entry == nil then
-      digiline_send(d, 'Invalid log index')
+      write_line('Invalid log index')
     else
       metapager(_log_entries, n)
     end

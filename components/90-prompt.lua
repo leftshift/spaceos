@@ -1,6 +1,6 @@
 prompt = function()
   mem.fg = "_prompt_callback"
-  digiline_send(d, [[Welcome to spaceOS!
+  write_line([[Welcome to spaceOS!
 Type 'help' and press 'send'
 to get started.
 >]])
@@ -18,9 +18,10 @@ _prompt_callback = function (input)
     help(input, cmdi)
   elseif cmd == "log" then
     log(input, cmdi)
-  elseif cmd == "test" then
-    test(input, cmdi)
+  elseif cmd == "prompt" then
+    -- just show initial prompt
+    prompt()
   else
-    digiline_send(d, "unknown command. try help")
+    write_line("unknown command. try help")
   end
 end

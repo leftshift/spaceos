@@ -1,6 +1,6 @@
 -- spaceOS - minimal operating system
 -- # general design
--- recieve messages from keyboard via digiline
+-- recieve messages from keyboard via handle_input``
 -- call apropriate program (just a function)
 -- arguments: (input, argi)
 --   input: whole input from keyboard
@@ -11,3 +11,7 @@
 -- arguments: (input)
 --  input: whole input from keyboard
 -- (why a name? Because functions can't be stored in mem.)
+--
+-- programs can use `write_line(line)` to write a line (or multiple)
+-- to the output buffer. This buffer is then concated
+-- with newlines and returned from `handle_input()
