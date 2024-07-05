@@ -30,7 +30,7 @@ The state on Losa is tensing up, we should hurry.]]
 		text=[[Type: Copy
 Source: GWA HC
  
-The Galactic Welfare Association has chosen the planet Losa as a site for Isnium mining to in- sure increasing demands for power.
+The Galactic Welfare Association has chosen the planet Losa as a site for Isnium mining to meet increasing demands for power.
 A new noninvasive scheme will be used.
 Inhabitants are advised to comply.
 
@@ -52,8 +52,7 @@ Critics say this may disrupt the ecosystem forever.]]
 Source: The Post
 
 The number of dead landards and geera washed up on the shores of Losa had continuosely increased over the last few months. The reasons are still unclear.
-Some worry because of the role the fish play
-for climate.]]
+Some worry because of the role the fish play for the climate.]]
 	},
 	{
 		title="[7: repair report 2]",
@@ -62,7 +61,7 @@ Type: Mission Log
 
 I've added some press reports and bulletins, as evidence for what the so-called welfare alliance (pfft, what a name) has done to Losa.
 
-Shields fixed, cargo hold cleaned, new kitchen, dimensional drive still wonky]]
+Shields fixed, cargo hold cleaned, new galley, dimensional drive still wonky]]
 	},
 	{
 		title="[8: Geera Statement]",
@@ -70,7 +69,7 @@ Shields fixed, cargo hold cleaned, new kitchen, dimensional drive still wonky]]
 Source: GWA EPA
 
 Reports of rising numbers of dead fish are misleading.
-There has always been dead geera on the shores, the numbers have converged to a stable level, similar to before the mining operation started.
+There has always been dead geera on the shores of Losa, the numbers have converged to a stable level, similar to before the mining operation started.
 
 Any attemts to smear this necessary project are plainly attemted sabotage.
 GWA Env. Prot.]]
@@ -136,7 +135,7 @@ Type: Mission Log
 
 Registered as a trade shipment, departed, had nice dinner, finishing the beds in the cargo hold right now.
 
-Headed for a settlement that can't be reached by land, only by shuttle. They're running out of food. And aren't heared.]]
+Headed for a settlement that can't be reached by land, only by shuttle. They're running out of food. And aren't heard.]]
 	},
 	{
 		title="[15: Status]",
@@ -181,6 +180,7 @@ But since about 4 months ago, life became almost unbarable.
 The gruesome winter killed even the non-seasonal crops, and spring never came.
 Our stocks are empty.
 Almost noone heared our cries for help. After the gold, the Alliance classified the mountains as uninhabitable and stopped all support except the rare shuttles they are obliged to run.
+
 But this is our home.
 Where I grew up,
 made friends
@@ -233,8 +233,7 @@ GWA Customs]]
 		text=[[Operator: #5
 Type: Mission Log
 
-Recipe for landard
-Soup:
+Recipe for landard Soup:
 1 big landard
 2 ka'hn
 2 sticks of grigweed
@@ -267,10 +266,9 @@ As we are landing on Hopper Island, we hope the GWA will not interfere.]]
 Source: Morning Type
 
 After a cruel winter on Losa, the temperatures continued to stay negative.
-Inhabitants who were just struck by the coldest winter are struggeling to make ends meet:
+Inhabitants who were just struck by the coldest winter are struggling to make ends meet:
 Only about 5% of fields can be used, the rest is in areas where even the most robust crops cannot grow at the current temperatures.
-The other source of nutrients, fish, is also mostly cut off.
-In addition to the spike in dead fish for unexplained reasons, many rivers and parts of the ocean are frozen, making fishing close to impossible and further hurting the ecosystem.
+The other source of nutrients, fish, is also mostly cut off. In addition to the spike in dead fish for unexplained reasons, many rivers and parts of the ocean are frozen, making fishing close to impossible and further hurting the ecosystem.
 Many who try to leave are hindered by the current lack of shuttles.]]
 	},
 	{
@@ -309,7 +307,7 @@ Source: GWA EPA
 
 Due to a new class of virus, Losa has been put under quarantine for the safety of both the galaxy and the inhabitants of Losa.
 
-Shuttle services will stay susp ended indefinitely.
+Shuttle services will stay suspended indefinitely.
 All ships leaving Losa must register with EPA immediately.
 Thank you for your cooperation.
 GWA Env. Prot.]]
@@ -359,9 +357,7 @@ Hint: Check cooling]]
 		text=[[Type: System Status
 System: Nav
 
-Status: Reaquired
-positional lock
-after 13s.]]
+Status: Reaquired positional lock after 13s.]]
 	},
 	{
 		title="[34: oops]",
@@ -390,7 +386,7 @@ And even though I know what is happening to the people we rescued, I can't to th
 		text=[[Operator: #2
 Type: Mission Log
 
-Arrived back on Losa at Worsley Town, remote fisher town that has been hit hard by the near extinction of fish.
+Arrived back on Losa at Worsley Town, remote fishing town that has been hit hard by the near extinction of fish.
 Some have already started the long hike across the mountains to the bigger settlements, but many would probably not make it there before winter.
 Although summer, winter, kind of the same thing here now.
 
@@ -461,7 +457,7 @@ Otherwise, force may need to be used to ensure the uphold of the quarantine.]]
 Type: Mission Log
 
 We don't really have a choice.
-We can'trisk so may lifes.
+We can't risk so may lifes.
 
 Although, who knows what they will do to us.
 
@@ -475,7 +471,7 @@ Type: Mission Log
 Well, here we are.
 TMS Grey, our dainty ship, next to G73H8, a not so dainty fighter.
 
-Appears they only have orders to stop us, not to what's next.]]
+Appears they only have orders to stop us, not for what's next.]]
 	},
 	{
 		title="[44: overclock]",
