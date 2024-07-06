@@ -51,7 +51,7 @@ Critics say this may disrupt the ecosystem forever.]]
 		text=[[Type: Copy
 Source: The Post
 
-The number of dead landards and geera washed up on the shores of Losa had continuosely increased over the last few months. The reasons are still unclear.
+The number of dead landards and geera washed up on the shores of Losa had continuously increased over the last few months. The reasons are still unclear.
 Some worry because of the role the fish play for the climate.]]
 	},
 	{
@@ -199,7 +199,7 @@ the title says it.
 caring for so many people,
 many malnourished,
 injured,
-struggeling emotionally,
+struggling emotionally,
 hungry.
 But also very creative.
 Writing music, paining lessons, poetry.
@@ -506,7 +506,7 @@ Hint: Check cooling]]
 		text=[[Type: System Status
 System: Nav
 
-Status: No known celestrial objects.
+Status: No known celestial objects.
 
 Could not aquire lock.]]
 	},
